@@ -45,7 +45,7 @@ export default class Index extends React.Component {
     return (
       <Layout backgroundColor="#FFFF00">
         <form
-          name="contact"
+          name="input-roll-call"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
