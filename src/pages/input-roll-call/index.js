@@ -15,8 +15,10 @@ export default class Index extends React.Component {
 
   constructor(props) {
     super(props);
-    this.for = props.location.state.for
-    this.header = props.location.state.header
+    if (props.location.state) {
+      this.for = props.location.state.for
+      this.header = props.location.state.header
+    }
     this.state = { isValidated: false };
   }
 
