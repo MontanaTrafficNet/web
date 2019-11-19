@@ -20,6 +20,14 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - label: Reports
+        name: reports 
+        widget: list
+        fields:
+          - {label: "Month Name", name: month, widget: string}
+          - {label: Checkins, name: checkins, widget: string}
+          - {label: Traffic, name: traffic, widget: string}
+          - {label: Time, name: time, widget: string}
 
   - name: "pages"
     label: "Pages"
