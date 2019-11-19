@@ -2,15 +2,22 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
+import './all.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, backgroundColor }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
-      <Helmet>
+    <div 
+      style={{
+        backgroundColor: backgroundColor || "#000080",
+        paddingLeft: 50,
+        paddingRight: 50,
+        minHeight: 100 + "vh"
+    }}
+    >
+      {/* <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -47,10 +54,10 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
-      </Helmet>
-      <Navbar />
+      </Helmet> */}
+      {/* <Navbar /> */}
       <div>{children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

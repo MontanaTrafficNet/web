@@ -1,7 +1,10 @@
 const _ = require('lodash')
 const path = require('path')
+const fs = require('fs')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const Axios = require('axios');
+const pdfreader = require('pdfreader');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -84,4 +87,64 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
+  const { createNode } = actions
+
+  const pdfPath = path.resolve(__dirname, 'public', 'members.pdf')
+  const writer = fs.createWriteStream(pdfPath)
+
+  const url = `https://docs.google.com/spreadsheets/d/1l8RBVzVa7y7oFf5wtARpqoEPDGOb2TpTcGS-NYYk8kE/export?exportFormat=pdf&format=pdf&size=LETTER&portrait=true&fitw=true&top_margin=0.137&bottom_margin=0&right_margin=0.30&left_margin=0.30&sheetnames=false&printtitle=false&pagenum=false&gridlines=false&fzr=FALSE&gid=972151208`;
+
+   const response = await Axios.default({
+    url,
+    method: 'GET',
+    responseType: 'stream'
+  })
+
+  response.data.pipe(writer)
+
+  await new Promise((resolve, reject) => {
+    writer.on('finish', resolve)
+    writer.on('error', reject)
+  });
+
+  const date = await new Promise((resolve, reject) => {
+    let lastText = "";
+    let foundText;
+    new pdfreader.PdfReader().parseFileItems(pdfPath, function(err, item) {
+      if (err) reject(err);
+      else if (!item) resolve(foundText);
+      else if (!foundText && item.text && lastText.includes("Montana")) foundText = item.text;
+      lastText = item && (item.text || "");
+    });
+  });
+
+  // if (text.length < 1) {
+  //   // endJob({id: "create-members-pdf"});
+  //   console.log("Error parsing members list", error);
+  //   throw new Error("Error parsing members list");
+  // }
+  const pdfData = { date, path: 'members.pdf' };
+  const id = createNodeId(`members-pdf`);
+  const nodeMeta = {
+    id, 
+    parent: null,
+    children: [],
+    internal: {
+      type: `roleCall`,
+      mediaType: `application/pdf`,
+      content: date,
+      contentDigest: createContentDigest(date)
+    }
+  }
+
+  const node = Object.assign({}, pdfData, nodeMeta)
+  createNode(node)
+      // endJob({id: "create-members-pdf"});
+  //   // });
+  // // }).catch(error => {
+  //   endJob({id: "create-members-pdf"});
+  //   console.log("Error getting members list", error);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
-import "./contact.scss"
+import "./input-roll-call.scss"
 
 function encode(data) {
   return Object.keys(data)
@@ -45,7 +45,7 @@ export default class Index extends React.Component {
         <form
           name="contact"
           method="post"
-          action={`/contact/${this.for}/`}
+          action={`/input-roll-call`}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
@@ -79,6 +79,19 @@ export default class Index extends React.Component {
               <span id="contactus_name_errorloc" className="error"></span>
             </div>
             <div className="container">
+              <label htmlFor="call">Call Sign:</label>
+              <br />
+              <input
+                type="text"
+                name="call"
+                id="call"
+                maxLength={15}
+                onChange={this.handleChange}
+              />
+              <br />
+              <span id="contactus_call_errorloc" className="error"></span>
+            </div>
+            <div className="container">
               <label htmlFor="email">Email Address*:</label>
               <br />
               <input
@@ -93,27 +106,14 @@ export default class Index extends React.Component {
               <span id="contactus_email_errorloc" className="error"></span>
             </div>
             <div className="container">
-              <label htmlFor="phone">Phone Number if you want a reply:</label>
-              <br />
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                maxLength={15}
-                onChange={this.handleChange}
-              />
-              <br />
-              <span id="contactus_phone_errorloc" className="error"></span>
-            </div>
-            <div className="container">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message about rollcall">Message to include Name, Call Sign and Town/State of station to be added or removed:</label>
               <br />
               <span id="contactus_message_errorloc" className="error"></span>
               <textarea
                 rows={10}
                 cols={50}
-                name="message"
-                id="message"
+                name="message about rollcall"
+                id="message about rollcall"
                 required
                 maxLength={2048}
                 onChange={this.handleChange}
