@@ -133,7 +133,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     parent: null,
     children: [],
     internal: {
-      type: `roleCall`,
+      type: `rollCall`,
       mediaType: `application/pdf`,
       content: date,
       contentDigest: createContentDigest(date)
@@ -142,9 +142,4 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   const node = Object.assign({}, pdfData, nodeMeta)
   createNode(node)
-      // endJob({id: "create-members-pdf"});
-  //   // });
-  // // }).catch(error => {
-  //   endJob({id: "create-members-pdf"});
-  //   console.log("Error getting members list", error);
 }

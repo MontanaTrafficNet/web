@@ -12,8 +12,8 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
-  roleCallDate,
-  roleCallPath
+  rollCallDate,
+  rollCallPath
 }) => (
   <div>
     <table style={{ width: 1010 + "px", marginLeft: "auto", marginRight: "auto", paddingTop: "2em" }} className="auto-style79">
@@ -184,7 +184,7 @@ export const IndexPageTemplate = ({
             <a
               target="_NEW"
               title="Roll Call for the Net"
-              href="RollCall/Members.pdf"
+              href={rollCallPath}
             >
               {" "}
               <span className="auto-style53">
@@ -197,11 +197,11 @@ export const IndexPageTemplate = ({
             <a
               id="ctl00_Main_HyperLink1"
               target="_blank"
-              href={roleCallPath}
+              href={rollCallPath}
             >
               {" "}
               <span className="auto-style60">
-                <strong>{roleCallDate.split(",")[0]} Roll Call Posted</strong>
+                <strong>{rollCallDate.split(",")[0]} Roll Call Posted</strong>
               </span>
             </a>
             <br /> <br className="auto-style6" />{" "}
@@ -955,7 +955,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  const { roleCall } = data;
+  const { rollCall } = data;
 
   return (
     <Layout backgroundColor={undefined}>
@@ -967,8 +967,8 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        roleCallPath={roleCall.path}
-        roleCallDate={roleCall.date}
+        rollCallPath={rollCall.path}
+        rollCallDate={rollCall.date}
       />
     </Layout>
   );
@@ -1019,7 +1019,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    roleCall {
+    rollCall {
       date
       id
       path
