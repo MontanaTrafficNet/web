@@ -1,22 +1,20 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 
 import Layout from "../components/Layout";
+import "./index-page.scss";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-  rollCallDate,
-  rollCallPath
-}) => (
+export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
   <div>
-    <table style={{ width: 1010 + "px", marginLeft: "auto", marginRight: "auto", paddingTop: "2em" }} className="auto-style79">
+    <table
+      style={{
+        width: 1010 + "px",
+        marginLeft: "auto",
+        marginRight: "auto",
+        paddingTop: "2em"
+      }}
+      className="auto-style79"
+    >
       <tbody>
         <tr>
           <td colSpan={6} className="auto-style34">
@@ -111,7 +109,10 @@ export const IndexPageTemplate = ({
                 target="_NEW"
                 title="Leave an email for the Manager"
                 to="contact"
-                state={{for: "manager", header: "Montana Traffic Net Manager"}}
+                state={{
+                  for: "manager",
+                  header: "Montana Traffic Net Manager"
+                }}
               >
                 {" "}
                 <span className="auto-style83">Net~Manager</span>
@@ -159,7 +160,10 @@ export const IndexPageTemplate = ({
                 target="_NEW"
                 title="Contact Nick"
                 to="contact"
-                state={{for: "webmaster", header: "Montana Traffic Net Webmaster"}}
+                state={{
+                  for: "webmaster",
+                  header: "Montana Traffic Net Webmaster"
+                }}
               >
                 {" "}
                 <span className="auto-style84">Web~Master</span>
@@ -170,7 +174,11 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={6} style={{ height: 51 + "px" }} className="auto-style37">
+          <td
+            colSpan={6}
+            style={{ height: 51 + "px" }}
+            className="auto-style37"
+          >
             {" "}
             <span className="auto-style15">THIS IS YOUR NET!!!!!!!!</span>
             <span className="auto-style16">YOU MAKE THE DIFFERENCE !!!</span>
@@ -181,11 +189,7 @@ export const IndexPageTemplate = ({
             {" "}
             &nbsp;
             <br /> &nbsp;<b>&nbsp; </b>{" "}
-            <a
-              target="_NEW"
-              title="Roll Call for the Net"
-              href={rollCallPath}
-            >
+            <a target="_NEW" title="Roll Call for the Net" href={rollCallPath}>
               {" "}
               <span className="auto-style53">
                 <strong>Roll Call&nbsp;</strong>
@@ -194,11 +198,7 @@ export const IndexPageTemplate = ({
           </td>
           <td colSpan={4} rowSpan={6} className="auto-style33">
             {" "}
-            <a
-              id="ctl00_Main_HyperLink1"
-              target="_blank"
-              href={rollCallPath}
-            >
+            <a id="ctl00_Main_HyperLink1" target="_blank" href={rollCallPath}>
               {" "}
               <span className="auto-style60">
                 <strong>{rollCallDate.split(",")[0]} Roll Call Posted</strong>
@@ -232,11 +232,22 @@ export const IndexPageTemplate = ({
               <br /> KA7YYR~Herb
               <br /> <br /> <br />{" "}
               <span className="auto-style76">
-                <strong>&nbsp;October Net Report</strong>
+                <strong>{reports[0].month} Net Report</strong>
               </span>
-              <br /> Checkins&nbsp;&nbsp; 1948&nbsp;&nbsp;
-              Traffic&nbsp;&nbsp;&nbsp; 83
-              <br /> Time&nbsp; 673&nbsp; minutes{" "}
+              <table className="reports">
+                <tr>
+                  <td className="header">Checkins</td>
+                  <td>{reports[0].checkins}</td>
+                </tr>
+                <tr>
+                  <td className="header">Traffic</td>
+                  <td>{reports[0].traffic}</td>
+                </tr>
+                <tr>
+                  <td className="header">Time</td>
+                  <td>{reports[0].time} minutes</td>
+                </tr>
+              </table>
             </span>
             <p className="auto-style3">
               {" "}
@@ -396,7 +407,11 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={2} style={{ height: 51 + "px" }} className="auto-style33">
+          <td
+            colSpan={2}
+            style={{ height: 51 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             <a target="_NEW" href="CM.htm">
               {" "}
@@ -410,7 +425,11 @@ export const IndexPageTemplate = ({
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </td>
-          <td colSpan={2} style={{ height: 51 + "px" }} className="auto-style33">
+          <td
+            colSpan={2}
+            style={{ height: 51 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             &nbsp;&nbsp;
             <a
@@ -425,7 +444,11 @@ export const IndexPageTemplate = ({
             </a>
             &nbsp;&nbsp;&nbsp;
           </td>
-          <td colSpan={2} style={{ height: 51 + "px" }} className="auto-style33">
+          <td
+            colSpan={2}
+            style={{ height: 51 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             &nbsp;&nbsp;
             <a
@@ -445,7 +468,11 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={3} style={{ height: 51 + "px" }} className="auto-style33">
+          <td
+            colSpan={3}
+            style={{ height: 51 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             <a target="_NEW" href="Nets.html">
               {" "}
@@ -455,7 +482,11 @@ export const IndexPageTemplate = ({
             </a>
             <span className="auto-style49">&nbsp;</span>
           </td>
-          <td colSpan={3} style={{ height: 51 + "px" }} className="auto-style33">
+          <td
+            colSpan={3}
+            style={{ height: 51 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             <a
               target="_NEW"
@@ -504,11 +535,17 @@ export const IndexPageTemplate = ({
             <strong>
               <a target="_NEW" title="Check your Weather" href="Weather.html">
                 {" "}
-                <span className="auto-style6">Check the Weather in Your Area</span>
+                <span className="auto-style6">
+                  Check the Weather in Your Area
+                </span>
               </a>
             </strong>
           </td>
-          <td colSpan={3} style={{ height: 51 + "px" }} className="auto-style64">
+          <td
+            colSpan={3}
+            style={{ height: 51 + "px" }}
+            className="auto-style64"
+          >
             {" "}
             <strong>
               {" "}
@@ -518,13 +555,19 @@ export const IndexPageTemplate = ({
                 href="Gauge.html"
               >
                 {" "}
-                <span className="auto-style6">Mounting Your Weather Equipment</span>
+                <span className="auto-style6">
+                  Mounting Your Weather Equipment
+                </span>
               </a>
             </strong>
           </td>
         </tr>
         <tr>
-          <td colSpan={3} style={{ height: 51 + "px" }} className="auto-style64">
+          <td
+            colSpan={3}
+            style={{ height: 51 + "px" }}
+            className="auto-style64"
+          >
             {" "}
             <span className="style7">Donate to MTN </span>
             <b>»»</b>
@@ -534,12 +577,14 @@ export const IndexPageTemplate = ({
             <span className="auto-style6">
               <span className="auto-style80">
                 {" "}
-
                 <Link
                   target="_NEW"
                   title="Leave an email for the Manager"
                   to="contact"
-                  state={{for: "for-manager", header: "Montana Traffic Net Manager"}}
+                  state={{
+                    for: "for-manager",
+                    header: "Montana Traffic Net Manager"
+                  }}
                 >
                   <span className="auto-style74">Contact Net Manager</span>
                 </Link>{" "}
@@ -798,7 +843,11 @@ export const IndexPageTemplate = ({
           </td>
         </tr> */}
         <tr>
-          <td colSpan={6} style={{ height: 54 + "px" }} className="auto-style50">
+          <td
+            colSpan={6}
+            style={{ height: 54 + "px" }}
+            className="auto-style50"
+          >
             Thanks to all who help us make this a Great Net
           </td>
         </tr>
@@ -836,7 +885,11 @@ export const IndexPageTemplate = ({
               </strong>
             </span>
           </td>
-          <td colSpan={4} style={{ height: 253 + "px" }} className="auto-style33">
+          <td
+            colSpan={4}
+            style={{ height: 253 + "px" }}
+            className="auto-style33"
+          >
             <p>&nbsp;</p>
             <p>
               <img alt="WAEF" height="121" width="235" src="img/WAEFPic.jpg" />
@@ -853,13 +906,17 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={6} style={{ height: 44 + "px" }} className="auto-style33">
+          <td
+            colSpan={6}
+            style={{ height: 44 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             <Link
               target="_NEW"
               title="Contact us with information"
               to="contact"
-              state={{for: "info", header: "Montana Traffic Net Webmaster"}}
+              state={{ for: "info", header: "Montana Traffic Net Webmaster" }}
             >
               {" "}
               <span className="auto-style51">
@@ -875,7 +932,11 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={6} style={{ height: 118 + "px" }} className="auto-style33">
+          <td
+            colSpan={6}
+            style={{ height: 118 + "px" }}
+            className="auto-style33"
+          >
             {" "}
             <iframe
               frameBorder="0"
@@ -887,8 +948,16 @@ export const IndexPageTemplate = ({
           </td>
         </tr>
         <tr>
-          <td colSpan={6} style={{ height: 109 + "px" }} className="auto-style33">
-            <table id="table71" style={{width: 800 + "px" }} className="style5">
+          <td
+            colSpan={6}
+            style={{ height: 109 + "px" }}
+            className="auto-style33"
+          >
+            <table
+              id="table71"
+              style={{ width: 800 + "px" }}
+              className="style5"
+            >
               <tbody>
                 <tr>
                   <td style={{ width: 770 + "px" }} className="style10">
@@ -921,7 +990,10 @@ export const IndexPageTemplate = ({
                       target="_NEW"
                       title="Contact the Net"
                       to="contact"
-                      state={{for: "the-net", header: "Montana Traffic Net Webmaster"}}
+                      state={{
+                        for: "the-net",
+                        header: "Montana Traffic Net Webmaster"
+                      }}
                     >
                       <strong>
                         <span className="auto-style80">&nbsp;</span>
@@ -941,18 +1013,6 @@ export const IndexPageTemplate = ({
   </div>
 );
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array
-  })
-};
-
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   const { rollCall } = data;
@@ -960,26 +1020,12 @@ const IndexPage = ({ data }) => {
   return (
     <Layout backgroundColor={undefined}>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        reports={frontmatter.reports}
         rollCallPath={rollCall.path}
         rollCallDate={rollCall.date}
       />
     </Layout>
   );
-};
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
 };
 
 export default IndexPage;
@@ -988,34 +1034,11 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
+        reports {
+          checkins
+          month
+          time
+          traffic
         }
       }
     }
