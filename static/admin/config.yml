@@ -20,14 +20,6 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - label: Reports
-        name: reports 
-        widget: list
-        fields:
-          - {label: "Month Name", name: month, widget: string}
-          - {label: Checkins, name: checkins, widget: string}
-          - {label: Traffic, name: traffic, widget: string}
-          - {label: Time, name: time, widget: string}
 
   - name: "pages"
     label: "Pages"
@@ -45,6 +37,14 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - label: Reports
+            name: reports 
+            widget: list
+            fields:
+              - {label: "Month Name", name: month, widget: string}
+              - {label: Checkins, name: checkins, widget: string}
+              - {label: Traffic, name: traffic, widget: string}
+              - {label: Time, name: time, widget: string}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
