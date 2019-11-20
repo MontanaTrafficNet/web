@@ -67,4 +67,10 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+reports:
+  - checkins: '1948'
+    month: October
+    time: '673'
+    traffic: '83'
 ---
+
