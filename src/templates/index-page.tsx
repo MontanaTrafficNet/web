@@ -958,7 +958,7 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
               frameBorder="0"
               width="129"
               height="34"
-              src="http://free.timeanddate.com/clock/i2e4o0rf/n448/ftb/tt0/tw1/tm1/td2/th2/ts1/ta1/tb4"
+              src="https://free.timeanddate.com/clock/i2e4o0rf/n448/ftb/tt0/tw1/tm1/td2/th2/ts1/ta1/tb4"
             ></iframe>
             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
           </td>
