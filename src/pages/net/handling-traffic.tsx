@@ -54,7 +54,7 @@ const handlingTraffic: React.FC = () => {
           }}
         >
           <b>
-            <a href="FSD%20218rtf.rtf" title="A RTF file for printing">
+            <a href="/net/FSD-218.rtf" title="A RTF file for printing">
               If you want this page in a RTF file for printing go to this
               link&nbsp;{" "}
             </a>
@@ -63,7 +63,12 @@ const handlingTraffic: React.FC = () => {
         </p>
         <br />
         <p style={{ textAlign: "center", margin: "5.0pt 12.2pt" }}>
-          <img alt="Message form" height={417} src="msgfrm.jpg" width={640} />
+          <img
+            alt="Message form"
+            height={417}
+            src="/net/msgfrm.jpg"
+            width={640}
+          />
         </p>
         <p style={{ textAlign: "center", margin: "5.0pt 12.2pt" }}>
           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -71,7 +76,7 @@ const handlingTraffic: React.FC = () => {
         <p style={{ textAlign: "center", fontSize: "large" }}>
           <b>
             <a
-              href="RADIOGRM.pdf"
+              href="/net/RADIOGRM.pdf"
               title="To acquire the standard type form used for messages."
             >
               &nbsp;Standard Form- To print the standard form just hit print and
@@ -80,7 +85,7 @@ const handlingTraffic: React.FC = () => {
           </b>
         </p>
         <p className={styles.style1}>
-          <a href="RADIOGRAM.pdf" title="Keep a copy handy to aid you.">
+          <a href="/net/RADIOGRAM.pdf" title="Keep a copy handy to aid you.">
             <strong>
               A Form with information on it for references. Maybe keep a copy
               for the information
