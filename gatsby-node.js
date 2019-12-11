@@ -40,7 +40,7 @@ exports.createPages = ({ actions, graphql }) => {
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.tsx`
         ),
         // additional data can be passed via context
         context: {
@@ -97,7 +97,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
   const url = `https://docs.google.com/spreadsheets/d/1l8RBVzVa7y7oFf5wtARpqoEPDGOb2TpTcGS-NYYk8kE/export?exportFormat=pdf&format=pdf&size=LETTER&portrait=true&fitw=true&top_margin=0.137&bottom_margin=0&right_margin=0.30&left_margin=0.30&sheetnames=false&printtitle=false&pagenum=false&gridlines=false&fzr=FALSE&gid=972151208`;
 
-   const response = await Axios.default({
+  const response = await Axios.default({
     url,
     method: 'GET',
     responseType: 'stream'
@@ -113,7 +113,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const date = await new Promise((resolve, reject) => {
     let lastText = "";
     let foundText;
-    new pdfreader.PdfReader().parseFileItems(pdfPath, function(err, item) {
+    new pdfreader.PdfReader().parseFileItems(pdfPath, function (err, item) {
       if (err) reject(err);
       else if (!item) resolve(foundText);
       else if (!foundText && item.text && lastText.includes("Montana")) foundText = item.text;
@@ -129,7 +129,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const pdfData = { date, path: 'members.pdf' };
   const id = createNodeId(`members-pdf`);
   const nodeMeta = {
-    id, 
+    id,
     parent: null,
     children: [],
     internal: {

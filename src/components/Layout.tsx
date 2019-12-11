@@ -1,21 +1,24 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.scss'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import React from "react";
+// import { Helmet } from 'react-helmet'
+// import Footer from '../components/Footer'
+// import Navbar from '../components/Navbar'
+import "./all.scss";
+import useSiteMetadata from "./SiteMetadata";
+// import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children, backgroundColor }) => {
-  const { title, description } = useSiteMetadata()
+const TemplateWrapper: React.FC<{ backgroundColor: undefined | string }> = ({
+  children,
+  backgroundColor
+}) => {
+  const { title, description } = useSiteMetadata();
   return (
-    <div 
+    <div
       style={{
         backgroundColor: backgroundColor || "#000080",
         paddingLeft: 50,
         paddingRight: 50,
         minHeight: 100 + "vh"
-    }}
+      }}
     >
       {/* <Helmet>
         <html lang="en" />
@@ -59,7 +62,7 @@ const TemplateWrapper = ({ children, backgroundColor }) => {
       <div>{children}</div>
       {/* <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;

@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
-import "./input-roll-call.scss"
+import "./input-roll-call.scss";
 
 function encode(data) {
   return Object.keys(data)
@@ -16,8 +16,8 @@ export default class Index extends React.Component {
   constructor(props) {
     super(props);
     if (props.location.state) {
-      this.for = props.location.state.for
-      this.header = props.location.state.header
+      this.for = props.location.state.for;
+      this.header = props.location.state.header;
     }
     this.state = { isValidated: false };
   }
@@ -61,9 +61,7 @@ export default class Index extends React.Component {
               </label>
             </div>
 
-            <legend>
-              Contact {this.header}
-            </legend>
+            <legend>Contact {this.header}</legend>
 
             <div className="container">
               <label htmlFor="name">Your Full Name*: </label>
@@ -107,7 +105,10 @@ export default class Index extends React.Component {
               <span id="contactus_email_errorloc" className="error"></span>
             </div>
             <div className="container">
-              <label htmlFor="message about rollcall">Message to include Name, Call Sign and Town/State of station to be added or removed:</label>
+              <label htmlFor="message about rollcall">
+                Message to include Name, Call Sign and Town/State of station to
+                be added or removed:
+              </label>
               <br />
               <span id="contactus_message_errorloc" className="error"></span>
               <textarea
