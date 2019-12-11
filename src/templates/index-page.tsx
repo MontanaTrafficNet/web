@@ -985,11 +985,11 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
                       <br />
                       <div>
                         {" "}
-                        <a href="http://www.hit-counts.com">
+                        <a href="https://www.hit-counts.com">
                           {" "}
                           <img
                             alt="free html visitor counters"
-                            src="http://www.hit-counts.com/counter.php?t=0&amp;digits=6&amp;ic=42345&amp;cid=699768"
+                            src="https://www.hit-counts.com/counter.php?t=0&amp;digits=6&amp;ic=42345&amp;cid=699768"
                           />
                         </a>{" "}
                         <br />
