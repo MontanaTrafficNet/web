@@ -4,8 +4,6 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import style from "./index-page.module.scss";
 
-console.log(style);
-
 export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
   <div>
     <table
