@@ -338,11 +338,11 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
             {" "}
             &nbsp;&nbsp;
             <br /> <span className={style.style7}>&nbsp;</span>
-            <a target="_NEW" title="Check out the Preamble" href="Preamble.htm">
+            <Link to="net/preamble" title="Check out the Preamble">
               <strong>
                 <span className={style.autoStyle6}>Preamble</span>
               </strong>
-            </a>
+            </Link>
           </td>
           <td className={style.style9}>
             {" "}
@@ -365,11 +365,11 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
             {" "}
             &nbsp;
             <br /> <span className={style.style7}>&nbsp;</span>
-            <a target="_NEW" title="Montana Section Net" href="Preamble4.htm">
+            <Link title="Montana Section Net" to="net/mt-net">
               <strong>
                 <span className={style.autoStyle6}>Montana Net</span>
               </strong>
-            </a>
+            </Link>
           </td>
           <td className={style.style10}>
             {" "}
@@ -419,8 +419,10 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
             className={style.autoStyle33}
           >
             {" "}
-            <a target="_NEW" href="CM.htm">
-              {" "}
+            <Link
+              to="net/common-messages"
+              title="See a list of common messages. "
+            >
               <img
                 alt="Common Messages"
                 height="34"
@@ -428,7 +430,7 @@ export const IndexPageTemplate = ({ reports, rollCallDate, rollCallPath }) => (
                 className={style.autoStyle62}
                 src="img/commonmessage.gif"
               />
-            </a>
+            </Link>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </td>
           <td

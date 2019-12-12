@@ -5,7 +5,7 @@ import styles from "./common-messages.module.scss";
 const commonMessages: React.FC = () => {
   return (
     <Layout backgroundColor="#FFFF00">
-      <p>
+      <p className={styles.first}>
         <a
           className={styles.link}
           title="This is the Common Messages listd at ARRL"
