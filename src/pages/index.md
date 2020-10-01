@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 reports:
-  - checkins: '1915'
-    month: August
-    time: '671'
-    traffic: '66'
+  - checkins: '1918'
+    month: October
+    time: '676'
+    traffic: '82'
 ---
 
