@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import styles from "./preamble.module.scss";
+import * as styles from "./preamble.module.scss";
 
 const preamble: React.FC = () => {
   return (

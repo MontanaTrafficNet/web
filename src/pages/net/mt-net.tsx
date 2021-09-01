@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import styles from "./mt-net.module.scss";
+import * as styles from "./mt-net.module.scss";
 
 const mtNet: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import styles from "./common-messages.module.scss";
+import * as styles from "./common-messages.module.scss";
 
 const commonMessages: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./forms2.module.scss";
+import * as styles from "./forms2.module.scss";
 
 const forms2: React.FC = () => {
   return (

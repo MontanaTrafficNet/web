@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import styles from "./handling-traffic.module.scss";
+import * as styles from "./handling-traffic.module.scss";
 import { Link } from "@reach/router";
 
 const handlingTraffic: React.FC = () => {
