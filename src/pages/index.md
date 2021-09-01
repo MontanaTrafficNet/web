@@ -5,9 +5,5 @@ reports:
     month: August
     time: '739'
     traffic: '66'
-  - checkins: '1901'
-    month: August
-    time: '739'
-    traffic: '66'
 ---
 
