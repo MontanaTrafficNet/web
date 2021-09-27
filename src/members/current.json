@@ -1,9 +1,1 @@
-{
-  "members": [
-    {
-      "firstName": "Nicholas",
-      "lastName": "Clark",
-      "callsign": "NC7BC"
-    }
-  ]
-}
+{a: "test"}
