@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "netlify dev",
+    "build": "npm run generate-members-pdf && npm run svelte:build",
     "svelte:dev": "svelte-kit dev",
     "generate-members-pdf": "bin/generate-members-pdf",
     "svelte:build": "svelte-kit build",
