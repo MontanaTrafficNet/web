@@ -1,0 +1,6 @@
+#! /bin/bash
+bin_dir=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+
+echo "Closing ports for WSL"
+
+powershell.exe $bin_dir/close-ports.ps1

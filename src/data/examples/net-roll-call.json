@@ -1,0 +1,981 @@
+{
+  "posted_date": "2021-10-10T21:22:34.947Z",
+  "members": {
+    "Absarokee": [
+      {
+        "callsign": "KJ7IAX",
+        "name": "Dayle"
+      }
+    ],
+    "Alberton": [
+      {
+        "callsign": "AG7MQ",
+        "name": "Richard"
+      },
+      {
+        "callsign": "NU8Q",
+        "name": "Rodger"
+      }
+    ],
+    "Alpine,WY": [
+      {
+        "callsign": "NA7AA",
+        "name": "Tom"
+      }
+    ],
+    "Anaconda": [
+      {
+        "callsign": "KA6CUU",
+        "name": "Bob"
+      },
+      {
+        "callsign": "KB7IQO",
+        "name": "Phil"
+      },
+      {
+        "callsign": "KE7TMN",
+        "name": "Robin"
+      }
+    ],
+    "Andrew, AB": [
+      {
+        "callsign": "VE6GPT",
+        "name": "Gorden"
+      }
+    ],
+    "Assiniboia, SK": [
+      {
+        "callsign": "VE5BWS",
+        "name": "Blair"
+      }
+    ],
+    "Beaverton, OR": [
+      {
+        "callsign": "KC7PD",
+        "name": "Robert"
+      }
+    ],
+    "Belgrade": [
+      {
+        "callsign": "AE7NZ",
+        "name": "Pat"
+      },
+      {
+        "callsign": "KD7TQM",
+        "name": "Norm"
+      }
+    ],
+    "Big Arm": [
+      {
+        "callsign": "K7PKA",
+        "name": "Paula"
+      }
+    ],
+    "Bigfork": [
+      {
+        "callsign": "K7JRE",
+        "name": "Jim"
+      },
+      {
+        "callsign": "K7KTV",
+        "name": "Fred"
+      },
+      {
+        "callsign": "NE7AL",
+        "name": "Neal"
+      },
+      {
+        "callsign": "W7EE",
+        "name": "Gary"
+      }
+    ],
+    "Billings": [
+      {
+        "callsign": "K7DW",
+        "name": "Don"
+      },
+      {
+        "callsign": "K7NJC",
+        "name": "Dick"
+      },
+      {
+        "callsign": "KW7EET",
+        "name": "Ed"
+      },
+      {
+        "callsign": "N7BLA",
+        "name": "Robert"
+      },
+      {
+        "callsign": "NQ7L",
+        "name": "James"
+      },
+      {
+        "callsign": "W7KG",
+        "name": "Vern"
+      }
+    ],
+    "Bonners Ferry, ID": [
+      {
+        "callsign": "KF7QNS",
+        "name": "Helen"
+      }
+    ],
+    "Boulder,MT": [
+      {
+        "callsign": "WB7ABS",
+        "name": "Jim"
+      }
+    ],
+    "Boulder, WY": [
+      {
+        "callsign": "W0OWB",
+        "name": "Jim"
+      }
+    ],
+    "Bozeman": [
+      {
+        "callsign": "WA7U",
+        "name": "Todd"
+      }
+    ],
+    "Calgary,AB": [
+      {
+        "callsign": "VE6MU",
+        "name": "Garry"
+      }
+    ],
+    "Casper,WY": [
+      {
+        "callsign": "WY7SJM",
+        "name": "Stephen"
+      }
+    ],
+    "Chinook": [
+      {
+        "callsign": "KJ7RAD",
+        "name": "Mike"
+      }
+    ],
+    "Clinton": [
+      {
+        "callsign": "KB7CRR",
+        "name": "Stuart"
+      }
+    ],
+    "Coeur D'Alene,  ID": [
+      {
+        "callsign": "K7TM ",
+        "name": "Bob"
+      },
+      {
+        "callsign": "KJ7KRI",
+        "name": "Randy"
+      },
+      {
+        "callsign": "N7JRK",
+        "name": "James"
+      }
+    ],
+    "Columbia Falls ": [
+      {
+        "callsign": "KE7KUA",
+        "name": "Kelly"
+      },
+      {
+        "callsign": "KI7EQP",
+        "name": "Mike"
+      },
+      {
+        "callsign": "N7PMS",
+        "name": "Mike"
+      },
+      {
+        "callsign": "NA7K",
+        "name": "Rick"
+      }
+    ],
+    "Columbus": [
+      {
+        "callsign": "KJ7JHA",
+        "name": "Kirt"
+      },
+      {
+        "callsign": "KM6AYC",
+        "name": "Ted"
+      }
+    ],
+    "Cowley, AB": [
+      {
+        "callsign": "VE6CEK",
+        "name": "Blair"
+      }
+    ],
+    "Cutbank": [
+      {
+        "callsign": "K7JAQ",
+        "name": "Roy"
+      },
+      {
+        "callsign": "KE7QIP",
+        "name": "Cliff"
+      },
+      {
+        "callsign": "KJ7SVZ",
+        "name": "Gary"
+      }
+    ],
+    "Darby": [
+      {
+        "callsign": "K9GT",
+        "name": "Ted"
+      },
+      {
+        "callsign": "NE7R",
+        "name": "Keith"
+      }
+    ],
+    "Denton": [
+      {
+        "callsign": "KD7TMI",
+        "name": "Infinity"
+      },
+      {
+        "callsign": "KD7TMJ",
+        "name": "Quasar"
+      },
+      {
+        "callsign": "KX7CAT",
+        "name": "Victor"
+      }
+    ],
+    "Dillon": [
+      {
+        "callsign": "W7IWB",
+        "name": "Leon"
+      }
+    ],
+    "Edgar": [
+      {
+        "callsign": "KI7CSZ",
+        "name": "Robert"
+      }
+    ],
+    "Ekalaka": [
+      {
+        "callsign": "W7THD",
+        "name": "Dean"
+      }
+    ],
+    "Elliston": [
+      {
+        "callsign": "N3ZB",
+        "name": "Ralph"
+      }
+    ],
+    "Eureka": [
+      {
+        "callsign": "K7BIR",
+        "name": "John"
+      },
+      {
+        "callsign": "KC7CUE",
+        "name": "Craig"
+      },
+      {
+        "callsign": "KF7NUN",
+        "name": "Ken"
+      }
+    ],
+    "Fairfield": [
+      {
+        "callsign": "KB7DA",
+        "name": "David"
+      }
+    ],
+    "Flaxville": [
+      {
+        "callsign": "K7SFA",
+        "name": "Mark"
+      }
+    ],
+    "Florence": [
+      {
+        "callsign": "KB7QQ ",
+        "name": "Jerry"
+      }
+    ],
+    "Fox Island,WA": [
+      {
+        "callsign": "W7JC",
+        "name": "Jerry"
+      }
+    ],
+    "Gardiner": [
+      {
+        "callsign": "K9YNP",
+        "name": "Jim"
+      }
+    ],
+    "Genelle BC": [
+      {
+        "callsign": "VA7SGR ",
+        "name": "Sue"
+      },
+      {
+        "callsign": "VE7JER ",
+        "name": "Jim"
+      }
+    ],
+    "Glendive": [
+      {
+        "callsign": "KA7YYR",
+        "name": "Herb"
+      },
+      {
+        "callsign": "KG7TXP",
+        "name": "Jerry"
+      }
+    ],
+    "Great Falls": [
+      {
+        "callsign": "AE7OC",
+        "name": "EOC"
+      },
+      {
+        "callsign": "NX7S",
+        "name": "Bernie"
+      },
+      {
+        "callsign": "NY7A",
+        "name": "Tim"
+      },
+      {
+        "callsign": "W7XY",
+        "name": "Donnie"
+      }
+    ],
+    "Greenacres, WA": [
+      {
+        "callsign": "K7HRT",
+        "name": "Pat"
+      },
+      {
+        "callsign": "KC7NNY",
+        "name": "Mike"
+      }
+    ],
+    "Hamilton": [
+      {
+        "callsign": "AC7TX",
+        "name": "Beryl"
+      }
+    ],
+    "Hanley, SK": [
+      {
+        "callsign": "VE5GAZ",
+        "name": "Martin"
+      }
+    ],
+    "Harrison": [
+      {
+        "callsign": "KJ7HPC",
+        "name": "Bill"
+      }
+    ],
+    "Havre": [
+      {
+        "callsign": "KB7DUJ",
+        "name": "Loren"
+      },
+      {
+        "callsign": "K7CCZ",
+        "name": "Richard"
+      },
+      {
+        "callsign": "K7HEH",
+        "name": "Heather"
+      },
+      {
+        "callsign": "KE7TPR",
+        "name": "Doug"
+      },
+      {
+        "callsign": "N7EOL",
+        "name": "Gary"
+      },
+      {
+        "callsign": "NO7G",
+        "name": "Lloyd"
+      }
+    ],
+    "Hayden, ID": [
+      {
+        "callsign": "AA7OX",
+        "name": "Charlette"
+      }
+    ],
+    "Helena": [
+      {
+        "callsign": "AJ7MT",
+        "name": "John"
+      },
+      {
+        "callsign": "K7MT",
+        "name": "Bill"
+      },
+      {
+        "callsign": "K7ZIN",
+        "name": "Ray"
+      },
+      {
+        "callsign": "KT7J",
+        "name": "Phil"
+      },
+      {
+        "callsign": "W7KRM",
+        "name": "Kevin"
+      }
+    ],
+    "Heyburn, ID": [
+      {
+        "callsign": "AB7CW ",
+        "name": "Lloyd"
+      }
+    ],
+    "Homedale, ID": [
+      {
+        "callsign": "KE7DCV",
+        "name": "Vern"
+      }
+    ],
+    "Joesph, OR": [
+      {
+        "callsign": "NG7X",
+        "name": "Stormy"
+      }
+    ],
+    "Kalispell": [
+      {
+        "callsign": "KI7APZ",
+        "name": "Pete"
+      },
+      {
+        "callsign": "KJ7TYM",
+        "name": "Addis"
+      },
+      {
+        "callsign": "KJ7UNJ",
+        "name": "Lawrence"
+      },
+      {
+        "callsign": "N7CMJ",
+        "name": "Les"
+      },
+      {
+        "callsign": "W7MG",
+        "name": "Joe"
+      }
+    ],
+    "Kennewick, WA": [
+      {
+        "callsign": "KC7CCK",
+        "name": "Mike"
+      }
+    ],
+    "Keyport,WA.": [
+      {
+        "callsign": "W7CPT",
+        "name": "Jim"
+      }
+    ],
+    "Kila": [
+      {
+        "callsign": "KG7MO",
+        "name": "Darrell"
+      },
+      {
+        "callsign": "KJ7SIR",
+        "name": "Kerry"
+      },
+      {
+        "callsign": "KM7ZWP",
+        "name": "Dave"
+      }
+    ],
+    "Lakeside": [
+      {
+        "callsign": "KF7VQO",
+        "name": "Gary"
+      },
+      {
+        "callsign": "KF7VQP",
+        "name": "Sheri"
+      }
+    ],
+    "Lethbridge, AB": [
+      {
+        "callsign": "VE6CV",
+        "name": "Gary"
+      }
+    ],
+    "Lewistown": [
+      {
+        "callsign": "K7EC",
+        "name": "Kirby"
+      },
+      {
+        "callsign": "KE7KPB",
+        "name": "Bob"
+      },
+      {
+        "callsign": "WA7BGI",
+        "name": "Gene"
+      },
+      {
+        "callsign": "WA7LAD",
+        "name": "Mac"
+      }
+    ],
+    "Libby": [
+      {
+        "callsign": "N7TZZ",
+        "name": "Terry"
+      }
+    ],
+    "Lincoln": [
+      {
+        "callsign": "AA7GS",
+        "name": "George"
+      },
+      {
+        "callsign": "K7LMT",
+        "name": "Bill"
+      },
+      {
+        "callsign": "KG7IUG",
+        "name": "Lloyd"
+      }
+    ],
+    "Livingston": [
+      {
+        "callsign": "K7YD",
+        "name": "Doug"
+      }
+    ],
+    "Lucile, ID": [
+      {
+        "callsign": "KJ7XP",
+        "name": "Forrest"
+      }
+    ],
+    "Malad, ID": [
+      {
+        "callsign": "WD9DWD",
+        "name": "Don"
+      }
+    ],
+    "Manhattan": [
+      {
+        "callsign": "AC7NC",
+        "name": "Mitch"
+      }
+    ],
+    "Marion": [
+      {
+        "callsign": "KF7AGO",
+        "name": "Jim"
+      }
+    ],
+    "Medicine Hat, AB": [
+      {
+        "callsign": "VE6MLD",
+        "name": "Milt"
+      }
+    ],
+    "Melba, ID": [
+      {
+        "callsign": "K7DBM",
+        "name": "Don"
+      }
+    ],
+    "Miles City": [
+      {
+        "callsign": "K7TNJ",
+        "name": "Bob"
+      },
+      {
+        "callsign": "KD7DLB",
+        "name": "Chuck"
+      }
+    ],
+    "Milk River, AB": [
+      {
+        "callsign": "VE6NFW",
+        "name": "Norm"
+      }
+    ],
+    "Missoula": [
+      {
+        "callsign": "K7IMZ",
+        "name": "Jerry"
+      },
+      {
+        "callsign": "K7MSO",
+        "name": "Mike"
+      },
+      {
+        "callsign": "K7QNZ",
+        "name": "Rich"
+      },
+      {
+        "callsign": "KF7BQ",
+        "name": "Terry"
+      },
+      {
+        "callsign": "N7PAS",
+        "name": "Paul"
+      },
+      {
+        "callsign": "W7PAQ",
+        "name": "Frank"
+      },
+      {
+        "callsign": "W7XT",
+        "name": "Dick"
+      },
+      {
+        "callsign": "WA7VTD",
+        "name": "Kevin"
+      },
+      {
+        "callsign": "WV7Z",
+        "name": "Mike"
+      }
+    ],
+    "Molalla,OR": [
+      {
+        "callsign": "KJ7NFM",
+        "name": "Barry"
+      }
+    ],
+    "Monarch, AB": [
+      {
+        "callsign": "VE6BVE",
+        "name": "Brad"
+      }
+    ],
+    "Naples, ID": [
+      {
+        "callsign": "W7DZX",
+        "name": "Darlene"
+      }
+    ],
+    "Okanagan, WA": [
+      {
+        "callsign": "AC7YL",
+        "name": "Norma"
+      },
+      {
+        "callsign": "WZ7T",
+        "name": "Loren"
+      }
+    ],
+    "Okanagan Falls, BC": [
+      {
+        "callsign": "VE7REN",
+        "name": "Brent"
+      }
+    ],
+    "Oliver, BC": [
+      {
+        "callsign": "VE7PBF",
+        "name": "Frank"
+      }
+    ],
+    "Osburn, ID": [
+      {
+        "callsign": "W7RNX",
+        "name": "Joe"
+      }
+    ],
+    "Othello, WA": [
+      {
+        "callsign": "W7COP",
+        "name": "John"
+      }
+    ],
+    "Penticton,BC": [
+      {
+        "callsign": "VE7IS",
+        "name": "Roy"
+      }
+    ],
+    "Philipsburg": [
+      {
+        "callsign": "WD7L",
+        "name": "Gary"
+      }
+    ],
+    "Plentywood": [
+      {
+        "callsign": "KB7QWG",
+        "name": "Gary"
+      }
+    ],
+    "Pocatello, ID": [
+      {
+        "callsign": "KF7FY",
+        "name": "Warren"
+      }
+    ],
+    "Portland, OR": [
+      {
+        "callsign": "W7TYN",
+        "name": "Joe"
+      }
+    ],
+    "Postfalls,ID": [
+      {
+        "callsign": "AI7H",
+        "name": "Ed"
+      }
+    ],
+    "Ramsay": [
+      {
+        "callsign": "N7ARO",
+        "name": "Gene"
+      }
+    ],
+    "Rapid City,SD": [
+      {
+        "callsign": "KC0JGE",
+        "name": "Andy"
+      }
+    ],
+    "Raymond, AB": [
+      {
+        "callsign": "VA6BRE",
+        "name": "Barrie"
+      },
+      {
+        "callsign": "VA6JWS",
+        "name": "John"
+      }
+    ],
+    "Red Lodge": [
+      {
+        "callsign": "WB7SSD",
+        "name": "John"
+      }
+    ],
+    "Reed Point": [
+      {
+        "callsign": "K7CTM",
+        "name": "Tom"
+      }
+    ],
+    "Rollins": [
+      {
+        "callsign": "KB7WLF ",
+        "name": "Cooper"
+      }
+    ],
+    "Roundup": [
+      {
+        "callsign": "N7DLK",
+        "name": "Jim"
+      }
+    ],
+    "Rupert, ID": [
+      {
+        "callsign": "KD7IYA",
+        "name": "Kevan"
+      }
+    ],
+    "Salmon, ID": [
+      {
+        "callsign": "N0XO",
+        "name": "Alan"
+      }
+    ],
+    "Shelby": [
+      {
+        "callsign": "W3DVM",
+        "name": "Jim"
+      }
+    ],
+    "Somers": [
+      {
+        "callsign": "KJ7VXQ",
+        "name": "Sandy"
+      }
+    ],
+    "Spokane, WA": [
+      {
+        "callsign": "AD7DD",
+        "name": "Aaron"
+      },
+      {
+        "callsign": "KJ7LVP",
+        "name": "Mike"
+      },
+      {
+        "callsign": "N6TCO",
+        "name": "Joe"
+      }
+    ],
+    "St. Maries, ID": [
+      {
+        "callsign": "KI7HJA",
+        "name": "Steve"
+      }
+    ],
+    "Star, Valley WY": [
+      {
+        "callsign": "N7MSM",
+        "name": "Marv"
+      }
+    ],
+    "Stavely, AB": [
+      {
+        "callsign": "VE6DRL",
+        "name": "David"
+      },
+      {
+        "callsign": "VE6WGB",
+        "name": "Walter"
+      }
+    ],
+    "Stevensville": [
+      {
+        "callsign": "K7DDE",
+        "name": "Dallas"
+      },
+      {
+        "callsign": "K7PTL",
+        "name": "Mike"
+      },
+      {
+        "callsign": "KC7YTK",
+        "name": "Mike"
+      },
+      {
+        "callsign": "KI7KYM",
+        "name": "Randy"
+      },
+      {
+        "callsign": "KR7Q",
+        "name": "Dennis"
+      }
+    ],
+    "Sunburst": [
+      {
+        "callsign": "KG7BFP",
+        "name": "Deb"
+      }
+    ],
+    "Swan Lake": [
+      {
+        "callsign": "KF7OCI",
+        "name": "Larry"
+      }
+    ],
+    "Tonasket, WA": [
+      {
+        "callsign": "KL7IZH",
+        "name": "Steve"
+      },
+      {
+        "callsign": "N7SJM",
+        "name": "Scott"
+      }
+    ],
+    "Trego": [
+      {
+        "callsign": "KH7BS",
+        "name": "Wayne"
+      }
+    ],
+    "Troy": [
+      {
+        "callsign": "W7RKD",
+        "name": "Burt"
+      }
+    ],
+    "Turah": [
+      {
+        "callsign": "N7NHS",
+        "name": "Maurice"
+      }
+    ],
+    "Twin Falls, ID": [
+      {
+        "callsign": "K7CMB",
+        "name": "Chuck"
+      }
+    ],
+    "Walkerville": [
+      {
+        "callsign": "W7ARO",
+        "name": "Ed"
+      }
+    ],
+    "Wauconda, WA": [
+      {
+        "callsign": "KF7YPA",
+        "name": "Jake"
+      }
+    ],
+    "Wenatchee, WA": [
+      {
+        "callsign": "KJ7VHH",
+        "name": "Mike"
+      }
+    ],
+    "Wendell ID": [
+      {
+        "callsign": "K8MPW",
+        "name": "Bil"
+      }
+    ],
+    "Whitefish": [
+      {
+        "callsign": "K7ONI",
+        "name": "Leo"
+      },
+      {
+        "callsign": "N7YL",
+        "name": "Ann"
+      },
+      {
+        "callsign": "W7ALT",
+        "name": "Jim"
+      }
+    ],
+    "Whitehall": [
+      {
+        "callsign": "WB6MMC",
+        "name": "Dale"
+      }
+    ],
+    "Wolf Point": [
+      {
+        "callsign": "KB7FSC",
+        "name": "Wane"
+      }
+    ],
+    "Worden": [
+      {
+        "callsign": "AE7V",
+        "name": "Todd"
+      }
+    ],
+    "Worland, WY": [
+      {
+        "callsign": "AD7XI",
+        "name": "Mike"
+      }
+    ]
+  }
+}

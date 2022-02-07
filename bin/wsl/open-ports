@@ -1,0 +1,8 @@
+#! /bin/bash
+bin_dir=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+
+wslIP=$(ip -f inet addr show eth0 | grep inet | awk '{print $2}' | cut -d/ -f1)
+
+echo "Opening and forwarding ports for WSL with IP: $wslIP"
+
+powershell.exe $bin_dir/open-ports.ps1 $wslIP

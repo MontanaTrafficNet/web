@@ -1,0 +1,46 @@
+{
+  "main": {
+    "sunday": {
+      "call": "KF7OCI",
+      "name": "Larry"
+    },
+    "monday": {
+      "call": "K7PKA",
+      "name": "Paula"
+    },
+    "tuesday": {
+      "call": "KI7CSZ",
+      "name": "Robert"
+    },
+    "wednesday": {
+      "call": "N7YL",
+      "name": "Ann"
+    },
+    "thursday": {
+      "call": "WA7LAD",
+      "name": "Mac"
+    },
+    "friday": {
+      "call": "K7NJC",
+      "name": "Dick"
+    },
+    "saturday": {
+      "call": "KG7BFP",
+      "name": "Deb"
+    }
+  },
+  "alternate": [
+    {
+      "call": "N7QOS",
+      "name": "David"
+    },
+    {
+      "call": "KF7SND",
+      "name": "Heather"
+    },
+    {
+      "call": "KA7YYR",
+      "name": "Herb"
+    }
+  ]
+}

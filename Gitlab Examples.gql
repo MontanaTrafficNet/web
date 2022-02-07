@@ -1,0 +1,30 @@
+#  "master:src/members/current.json"
+# {"expression": "api-test:src/members/current.json"}
+query GetFile($expression: String!) {
+  repository(name: "web", owner: "MontanaTrafficNet") {
+    id
+    description
+    object(expression: $expression) {
+      commitUrl
+      ... on Blob {
+        text
+      }
+    }
+  }
+}
+
+mutation WriteFile {
+  __typename
+  createCommitOnBranch(
+    input: {
+      branch: { branchName: "api-test", repositoryNameWithOwner: "MontanaTrafficNet/web" }
+      message: { headline: "Test commit" }
+      fileChanges: { additions: { path: "src/members/current.json", contents: "e2E6ICJ0ZXN0In0=" } }
+      expectedHeadOid: "b918de68d2743381ec32c40e72b0ecf9b3a1e06f"
+    }
+  ) {
+    ref {
+      name
+    }
+  }
+}
