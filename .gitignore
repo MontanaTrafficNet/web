@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /build
+/build-generator
 /.svelte-kit
 /package
 .netlify
+/static/members.pdf

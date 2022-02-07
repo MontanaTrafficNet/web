@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "netlify dev",
     "svelte:dev": "svelte-kit dev",
-    "svlete:build": "svelte-kit build",
+    "generate-members-pdf": "bin/generate-members-pdf",
+    "svelte:build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -31,8 +32,9 @@
     "svelte": "^3.46.4",
     "svelte-check": "^2.4.2",
     "svelte-preprocess": "^4.10.2",
+    "ts-node": "^10.4.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.0.0"
+    "typescript": "^4.5.5"
   },
   "type": "module",
   "dependencies": {

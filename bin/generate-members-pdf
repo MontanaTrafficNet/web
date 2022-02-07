@@ -1,0 +1,5 @@
+#! /bin/bash
+
+node_modules/.bin/tsc --resolveJsonModule --esModuleInterop --target es6 --moduleResolution node --module esnext --outDir build-generator src/lib/generate-members.ts
+
+node --experimental-specifier-resolution=node build-generator/lib/generate-members.js
