@@ -433,7 +433,7 @@
   }
 
   .rri.image {
-    background-image: url("../../img/RRIlogo.jpg");
+    background-image: url("/img/RRIlogo.jpg");
     height: 293px;
     place-content: flex-end;
     grid-row: span 3;
