@@ -71,7 +71,7 @@
       </div>
     </div>
   </div>
-{/if}}
+{/if}
 
 <style>
   .modal {
