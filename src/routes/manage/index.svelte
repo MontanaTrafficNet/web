@@ -31,7 +31,7 @@
   let rollCall: typeof NetRollCall = undefined;
 
   function load() {
-    fetch(".netlify/functions/current", {
+    fetch("/.netlify/functions/current", {
       mode: "same-origin",
       method: "GET",
       headers: {
@@ -55,7 +55,7 @@
   }
 
   function save() {
-    fetch(".netlify/functions/update", {
+    fetch("/.netlify/functions/update", {
       mode: "same-origin",
       method: "POST",
       headers: {
