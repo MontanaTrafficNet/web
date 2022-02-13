@@ -7,9 +7,9 @@
   import type * as NetControlStations from "../../data/net-control-stations.json";
   import type * as NetReport from "../../data/net-report.json";
   import type * as NetRollCall from "../../data/net-roll-call.json";
-  import NetControlEditor from "./NetControlEditor.svelte";
-  import NetReportsEditor from "./NetReportsEditor.svelte";
-  import NetRollCallEditor from "./NetRollCallEditor.svelte";
+  import NetControlEditor from "../../lib/components/Manage/NetControlEditor.svelte";
+  import NetReportsEditor from "../../lib/components/Manage/NetReportsEditor.svelte";
+  import NetRollCallEditor from "../../lib/components/Manage/NetRollCallEditor.svelte";
   import { ModalContainer } from "$lib/components/Modal";
 
   // @hmr:keep
@@ -42,7 +42,6 @@
       .then(async (response) => {
         if (response.ok) {
           const json = await response.json();
-          console.log(json);
           stations = json.data.controlStations;
           report = json.data.report;
           rollCall = json.data.rollCall;

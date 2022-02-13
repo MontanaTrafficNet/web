@@ -4,7 +4,7 @@
   import { getContext, tick } from "svelte";
   import * as Icons from "@mdi/js";
 
-  import type * as NetRollCall from "../../data/net-roll-call.json";
+  import type * as NetRollCall from "../../../data/net-roll-call.json";
   import NetRollCallEditorCity from "./NetRollCallEditorCity.svelte";
   import { ModalContext } from "$lib/components/Modal";
 

@@ -6,11 +6,11 @@
   import * as Icons from "@mdi/js";
   import { slide } from "svelte/transition";
 
-  import type * as NetControlStations from "../../data/net-control-stations.json";
+  import type * as NetControlStations from "../../../data/net-control-stations.json";
 
   export let stations: typeof NetControlStations;
 
-  $: stationDays = (Object.keys(stations.main) as unknown) as keyof typeof stations.main;
+  $: stationDays = Object.keys(stations.main) as unknown as keyof typeof stations.main;
 
   let newCall = "";
   let newName = "";

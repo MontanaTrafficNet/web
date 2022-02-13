@@ -4,7 +4,7 @@
   import SelectOption from "$lib/components/SelectOption.svelte";
   import { monthToString } from "$lib/month-to-string";
 
-  import type * as NetReport from "../../data/net-report.json";
+  import type * as NetReport from "../../../data/net-report.json";
 
   export let report: typeof NetReport;
 
