@@ -62,7 +62,7 @@
     // Since we use a mutable object, we can't just check these with a deep equal.
     // Instead, we store the original as as JSON string, and then compare here.
     if (JSON.stringify(rollCall) !== loadedRollCall) {
-      rollCall.posted_date = new Date();
+      rollCall.posted_date = new Date().toJSON();
       console.log("Updated roll call... updating date too", rollCall.posted_date);
     }
     try {
@@ -83,7 +83,7 @@
 
   function autoUpdate(node: HTMLImageElement) {
     const originalSrc = node.src;
-    const t = setInterval(() => (node.src = `${originalSrc}?rand=${Math.random()}`), 3000);
+    const t = setInterval(() => (node.src = `${originalSrc}?rand=${Math.random()}`), 7000);
     return {
       destroy() {
         clearTimeout(t);
