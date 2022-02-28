@@ -17,6 +17,10 @@ const config = {
 			// ssr: false
 		}),
 		vite: {
+			server: {
+				port: 8888,
+			},
+			envPrefix: "MTN_",
 			resolve: {
 				alias: {
 					$data: path.resolve('./src/data'),

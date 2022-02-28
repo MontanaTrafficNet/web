@@ -1,7 +1,9 @@
+import path from "path";
 import { PDFDocument, StandardFonts, rgb, PDFPage, PDFFont, PageSizes } from "pdf-lib";
-import { RollCall } from "./data/roll-call";
 import type NetRollCall from "../data/net-roll-call.json";
 import { date } from "./date";
+import { promises as fs } from "fs";
+import { fileURLToPath } from "url";
 
 interface Size {
   width: number;
@@ -387,7 +389,16 @@ export class RollCallPDF {
   }
 
   static async generate() {
-    const rollCall = await new RollCall().get();
+    const filePath = path.join(
+      path.dirname(fileURLToPath(import.meta.url)),
+      "..",
+      "data",
+      "net-roll-call.json",
+    );
+    console.log("Getting: ", filePath);
+
+    const contents = await fs.readFile(filePath);
+    const rollCall = JSON.parse(contents.toString("utf-8")) as typeof NetRollCall;
 
     const doc = await PDFDocument.create();
     const fontBold = await doc.embedFont(StandardFonts.HelveticaBold);

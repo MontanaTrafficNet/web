@@ -5,10 +5,11 @@
   export let small: boolean = false;
   export let type: "button" | "submit" = "button";
   export let icon: undefined | string = undefined;
+  export let disabled = false;
 </script>
 
 <div class="net-button" class:link class:button={!link} class:small class:icon>
-  <button on:click {type} on:blur on:focus>
+  <button on:click {type} on:blur on:focus {disabled}>
     {#if icon}
       <Icon path={icon} size="1em" />
     {:else}
@@ -44,7 +45,7 @@
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
   }
 
-  .button:hover button {
+  .button:hover button:not([disabled]) {
     background-color: var(--button-hover-color);
     cursor: pointer;
   }
@@ -76,5 +77,9 @@
     place-items: center;
 
     padding: 2px;
+  }
+
+  .button button[disabled] {
+    opacity: 0.5;
   }
 </style>
