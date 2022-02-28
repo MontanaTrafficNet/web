@@ -8,3 +8,11 @@ command = "svelte-kit dev"
 [functions]
 directory = "functions"
 node_bundler = "esbuild"
+
+[context.production.environment]
+MTN_USE_BRANCH = "master"
+MTN_USE_GITHUB = "true"
+
+[context.staging.environment]
+MTN_USE_BRANCH = "v2"
+MTN_USE_GITHUB = "true"
