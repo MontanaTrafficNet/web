@@ -13,6 +13,6 @@ node_bundler = "esbuild"
 MTN_USE_BRANCH = "master"
 MTN_USE_GITHUB = "true"
 
-[context.staging.environment]
+[context.deploy-preview.environment]
 MTN_USE_BRANCH = "v2"
 MTN_USE_GITHUB = "true"
