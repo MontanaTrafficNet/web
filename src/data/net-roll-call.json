@@ -1,10 +1,10 @@
 {
-  "posted_date": "2022-02-28T06:25:54.137Z",
+  "posted_date": "2022-03-01T00:22:21.978Z",
   "members": {
     "Absarokee": [
       {
         "callsign": "KJ7IAX",
-        "name": "Dayle-TEST"
+        "name": "Dayle"
       }
     ],
     "Alberton": [
@@ -121,15 +121,15 @@
         "name": "Helen"
       }
     ],
-    "Boulder,MT": [
-      {
-        "callsign": "WB7ABS",
-        "name": "Jim"
-      }
-    ],
     "Boulder, WY": [
       {
         "callsign": "W0OWB",
+        "name": "Jim"
+      }
+    ],
+    "Boulder,MT": [
+      {
+        "callsign": "WB7ABS",
         "name": "Jim"
       }
     ],
@@ -137,6 +137,12 @@
       {
         "callsign": "WA7U",
         "name": "Todd"
+      }
+    ],
+    "CONNER": [
+      {
+        "callsign": "KJ7Z",
+        "name": "BILL"
       }
     ],
     "Calgary,AB": [
@@ -671,6 +677,12 @@
         "name": "Darlene"
       }
     ],
+    "Okanagan Falls, BC": [
+      {
+        "callsign": "VE7REN",
+        "name": "Brent"
+      }
+    ],
     "Okanagan, WA": [
       {
         "callsign": "AC7YL",
@@ -679,12 +691,6 @@
       {
         "callsign": "WZ7T",
         "name": "Loren"
-      }
-    ],
-    "Okanagan Falls, BC": [
-      {
-        "callsign": "VE7REN",
-        "name": "Brent"
       }
     ],
     "Oliver, BC": [
