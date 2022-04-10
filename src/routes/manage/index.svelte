@@ -13,7 +13,6 @@
   import netlifyAuthProviders from "netlify-auth-providers";
   import { Data } from "$lib/data";
   import { goto } from "$app/navigation";
-  import { notStrictEqual } from "assert";
 
   //@hmr:keep
   let token: undefined | string = undefined;

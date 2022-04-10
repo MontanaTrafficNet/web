@@ -23,6 +23,7 @@
   bind:this={el}
   on:focus
   on:blur
+  on:change
 />
 
 <style>

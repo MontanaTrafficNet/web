@@ -135,7 +135,7 @@ export class RollCallPDF {
   }
 
   private subheader() {
-    const sub = date().format("MMMM DD, YYYY");
+    const sub = date().tz("GMT").format("MMMM DD, YYYY");
     const font = this.font;
 
     const size = {

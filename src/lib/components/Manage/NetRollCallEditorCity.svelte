@@ -4,6 +4,7 @@
   import { createEventDispatcher } from "svelte";
   import { fade } from "svelte/transition";
   import * as Icons from "@mdi/js";
+  import { valueFromAST } from "graphql";
 
   const dispatch = createEventDispatcher<{
     selected: void;
@@ -70,7 +71,13 @@
           />
         </div>
         <div class="callsign">
-          <TextInput bind:value={member.callsign} placeholder="Callsign" on:focus={focus} />
+          <TextInput
+            bind:value={member.callsign}
+            placeholder="Callsign"
+            on:focus={focus}
+            on:change={() => (member.callsign = member.callsign.toUpperCase())}
+            on:blur={() => (member.callsign = member.callsign.toUpperCase())}
+          />
         </div>
 
         {#if isSelected}

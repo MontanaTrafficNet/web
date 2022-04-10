@@ -5,9 +5,9 @@
   import { dayToString } from "$lib/day-to-string";
   import { monthToString } from "$lib/month-to-string";
 
-  $: stationDays = (Object.keys(stations.main) as unknown) as keyof typeof stations.main;
+  $: stationDays = Object.keys(stations.main) as unknown as keyof typeof stations.main;
 
-  const rollCallDate = new Intl.DateTimeFormat("en-US", { dateStyle: "long" })
+  const rollCallDate = new Intl.DateTimeFormat("en-US", { dateStyle: "long", timeZone: "GMT" })
     .format(new Date(rollCall.posted_date))
     .split(",")[0];
   const rollCallPath = "members.pdf";

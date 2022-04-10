@@ -54,7 +54,7 @@
       rollCall.members[city] = [
         ...cityMembers,
         {
-          callsign,
+          callsign: callsign.toUpperCase(),
           name,
         },
       ];
@@ -85,6 +85,7 @@
       return;
     delete rollCall.members[city];
     rollCall.members = orderObjectKeys(rollCall.members);
+    rollCall = rollCall;
   }
 
   function sortMembers(city: keyof typeof rollCall.members): void {
@@ -117,6 +118,8 @@
     }
   }
 
+  $: filteredCities = applyFilter(cities, filter);
+
   let selectedCity: string | undefined = undefined;
 </script>
 
@@ -138,7 +141,7 @@
     </div>
   </div>
   <div class="report">
-    {#each applyFilter(cities, filter) as city (city)}
+    {#each filteredCities as city}
       <NetRollCallEditorCity
         {city}
         members={members[city]}
