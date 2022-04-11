@@ -3,12 +3,6 @@
 
   import { page } from "$app/stores";
 
-  function encode(data) {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  }
-
   let name = "";
   let header = "";
   let rollCallInput = false;
@@ -42,12 +36,14 @@
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
+    const formData = new FormData(form);
+    const body = new URLSearchParams(formData as any);
+    body.set("form-name", name);
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": name,
-      }),
+      body,
     })
       .then(() => goto(`/contact/success/${name}`))
       .catch((error) => alert(error));
