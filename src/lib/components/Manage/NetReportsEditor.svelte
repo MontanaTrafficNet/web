@@ -16,6 +16,7 @@
   <div class="report">
     <div class="value cell">
       <div class="month">
+        <div class="label">Month</div>
         <SelectInput bind:value={report.month}>
           {#each months as month}
             <SelectOption value={month[0]}>{month[1]}</SelectOption>
@@ -23,12 +24,15 @@
         </SelectInput>
       </div>
       <div class="checkins">
+        <div class="label">Checkins</div>
         <NumberInput bind:value={report.checkins} placeholder="Checkins" />
       </div>
       <div class="traffic">
+        <div class="label">Traffic</div>
         <NumberInput bind:value={report.traffic} placeholder="Traffic" />
       </div>
       <div class="minutes">
+        <div class="label">Minutes</div>
         <NumberInput bind:value={report.time} placeholder="Minutes" />
       </div>
     </div>
@@ -82,5 +86,14 @@
   h3 {
     font-size: 20px;
     margin-bottom: 1px;
+  }
+
+  .value.cell > * {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .report .label {
+    display: block;
   }
 </style>
