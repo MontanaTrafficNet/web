@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T19:57:36.606Z",
+  "posted_date": "2022-06-05T20:00:19.679Z",
   "members": {
     "Absarokee": [
       {
@@ -237,16 +237,20 @@
     ],
     "Eureka": [
       {
-        "callsign": "K7BIR",
-        "name": "John"
-      },
-      {
         "callsign": "KC7CUE",
         "name": "Craig"
       },
       {
+        "callsign": "K7BIR",
+        "name": "John"
+      },
+      {
         "callsign": "KF7NUN",
         "name": "Ken"
+      },
+      {
+        "callsign": "W7GVW",
+        "name": "Steve"
       }
     ],
     "Fairfield": [
