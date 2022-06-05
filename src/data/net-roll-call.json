@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T20:00:45.042Z",
+  "posted_date": "2022-06-05T20:01:19.404Z",
   "members": {
     "Absarokee": [
       {
@@ -379,24 +379,20 @@
     ],
     "Helena": [
       {
-        "callsign": "AJ7MT",
-        "name": "John"
-      },
-      {
         "callsign": "K7MT",
         "name": "Bill"
       },
       {
-        "callsign": "K7ZIN",
-        "name": "Ray"
-      },
-      {
-        "callsign": "KT7J",
-        "name": "Phil"
+        "callsign": "AJ7MT",
+        "name": "John"
       },
       {
         "callsign": "W7KRM",
         "name": "Kevin"
+      },
+      {
+        "callsign": "K7ZIN",
+        "name": "Ray"
       }
     ],
     "Homedale, ID": [
