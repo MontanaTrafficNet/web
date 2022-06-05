@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T20:49:31.756Z",
+  "posted_date": "2022-06-05T20:54:25.662Z",
   "members": {
     "Absarokee": [
       {
@@ -231,12 +231,12 @@
     ],
     "Eureka": [
       {
-        "callsign": "KC7CUE",
-        "name": "Craig"
-      },
-      {
         "callsign": "K7BIR",
         "name": "John"
+      },
+      {
+        "callsign": "KC7CUE",
+        "name": "Craig"
       },
       {
         "callsign": "KF7NUN",
@@ -299,16 +299,16 @@
     ],
     "Great Falls": [
       {
+        "callsign": "AE7OC",
+        "name": "EOC"
+      },
+      {
         "callsign": "NX7S",
         "name": "Bernie"
       },
       {
         "callsign": "W7XY",
         "name": "Donnie"
-      },
-      {
-        "callsign": "AE7OC",
-        "name": "EOC"
       }
     ],
     "Greenacres, WA": [
@@ -341,16 +341,16 @@
     ],
     "Havre": [
       {
-        "callsign": "KB7DUJ",
-        "name": "Loren"
-      },
-      {
         "callsign": "K7CCZ",
         "name": "Richard"
       },
       {
         "callsign": "K7HEH",
         "name": "Heather"
+      },
+      {
+        "callsign": "KB7DUJ",
+        "name": "Loren"
       },
       {
         "callsign": "KE7TPR",
@@ -373,20 +373,20 @@
     ],
     "Helena": [
       {
-        "callsign": "K7MT",
-        "name": "Bill"
-      },
-      {
         "callsign": "AJ7MT",
         "name": "John"
       },
       {
-        "callsign": "W7KRM",
-        "name": "Kevin"
+        "callsign": "K7MT",
+        "name": "Bill"
       },
       {
         "callsign": "K7ZIN",
         "name": "Ray"
+      },
+      {
+        "callsign": "W7KRM",
+        "name": "Kevin"
       }
     ],
     "Homedale, ID": [
@@ -403,20 +403,20 @@
     ],
     "Kalispell": [
       {
-        "callsign": "KJ7TYM",
-        "name": "Addis"
+        "callsign": "KI7APZ",
+        "name": "Pete"
       },
       {
-        "callsign": "W7MG",
-        "name": "Joe"
+        "callsign": "KJ7TYM",
+        "name": "Addis"
       },
       {
         "callsign": "N7CMJ",
         "name": "Les"
       },
       {
-        "callsign": "KI7APZ",
-        "name": "Pete"
+        "callsign": "W7MG",
+        "name": "Joe"
       }
     ],
     "Kennewick, WA": [
@@ -433,12 +433,12 @@
     ],
     "Kila": [
       {
-        "callsign": "KM7ZWP",
-        "name": "Dave"
-      },
-      {
         "callsign": "KJ7SIR",
         "name": "Kerry"
+      },
+      {
+        "callsign": "KM7ZWP",
+        "name": "Dave"
       }
     ],
     "Lakeside": [
