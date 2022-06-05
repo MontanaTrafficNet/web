@@ -188,6 +188,16 @@ export class RollCallPDF {
     let previousCity = "";
 
     for (const [city, members] of Object.entries(this.rollCall.members)) {
+      // If we are starting a new city, make sure there's enough room for the
+      // whole city to fit, if not, fill in the remaining space in the column
+      // and continue on the next column
+      if (city !== previousCity && rows - row - members.length + 1 < 0) {
+        while (row <= rows) {
+          this.row(row, column, "", { callsign: "", name: "" });
+          row++;
+        }
+      }
+
       for (const member of members) {
         if (row > rows && column === 1) {
           this.page.moveRight(this.columnWidth + this.margin.center);
