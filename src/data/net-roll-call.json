@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T20:00:19.679Z",
+  "posted_date": "2022-06-05T20:00:45.042Z",
   "members": {
     "Absarokee": [
       {
@@ -305,20 +305,16 @@
     ],
     "Great Falls": [
       {
-        "callsign": "AE7OC",
-        "name": "EOC"
-      },
-      {
         "callsign": "NX7S",
         "name": "Bernie"
       },
       {
-        "callsign": "NY7A",
-        "name": "Tim"
-      },
-      {
         "callsign": "W7XY",
         "name": "Donnie"
+      },
+      {
+        "callsign": "AE7OC",
+        "name": "EOC"
       }
     ],
     "Greenacres, WA": [
