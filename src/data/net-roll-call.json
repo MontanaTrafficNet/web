@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T20:46:58.494Z",
+  "posted_date": "2022-06-05T20:49:31.756Z",
   "members": {
     "Absarokee": [
       {
@@ -171,23 +171,19 @@
     ],
     "Cutbank": [
       {
+        "callsign": "K7JAQ",
+        "name": "Roy"
+      },
+      {
         "callsign": "KE7QIP",
         "name": "Cliff"
       },
       {
         "callsign": "KJ7SVZ",
         "name": "Gary"
-      },
-      {
-        "callsign": "K7JAQ",
-        "name": "Roy"
       }
     ],
     "Darby": [
-      {
-        "callsign": "NE7R",
-        "name": "Keith"
-      },
       {
         "callsign": "K9GT",
         "name": "Ted"
@@ -195,6 +191,10 @@
       {
         "callsign": "KG7GPR",
         "name": "Missy"
+      },
+      {
+        "callsign": "NE7R",
+        "name": "Keith"
       }
     ],
     "Denton": [
