@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T19:56:08.728Z",
+  "posted_date": "2022-06-05T19:56:36.982Z",
   "members": {
     "Absarokee": [
       {
@@ -169,17 +169,7 @@
         "name": "Ted"
       }
     ],
-    "Cowley, AB": [
-      {
-        "callsign": "VE6CEK",
-        "name": "Blair"
-      }
-    ],
     "Cutbank": [
-      {
-        "callsign": "K7JAQ",
-        "name": "Roy"
-      },
       {
         "callsign": "KE7QIP",
         "name": "Cliff"
@@ -187,6 +177,10 @@
       {
         "callsign": "KJ7SVZ",
         "name": "Gary"
+      },
+      {
+        "callsign": "K7JAQ",
+        "name": "Roy"
       }
     ],
     "Darby": [
