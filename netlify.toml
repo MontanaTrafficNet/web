@@ -16,3 +16,8 @@ MTN_USE_GITHUB = "true"
 [context.deploy-preview.environment]
 MTN_USE_BRANCH = "v2"
 MTN_USE_GITHUB = "true"
+
+[[redirects]]
+from = "/*"
+to = "/200.html"
+status = 200
