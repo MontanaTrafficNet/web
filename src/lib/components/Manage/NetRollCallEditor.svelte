@@ -91,19 +91,19 @@
   function sortMembers(city: keyof typeof rollCall.members): void {
     if (!rollCall.members[city]) return;
     rollCall.members[city] = rollCall.members[city].sort((a, b) => {
-      let aName = a.name.toLowerCase(),
-        bName = b.name.toLowerCase();
+      let aCall = a.callsign.toLowerCase(),
+        bCall = b.callsign.toLowerCase();
 
-      if (aName === "" && bName === "") return 0;
+      if (aCall === "" && bCall === "") return 0;
 
-      if (aName === "") return 1;
-      if (bName === "") return -1;
+      if (aCall === "") return 1;
+      if (bCall === "") return -1;
 
-      if (aName < bName) {
+      if (aCall < bCall) {
         return -1;
       }
 
-      if (aName > bName) {
+      if (aCall > bCall) {
         return 1;
       }
       return 0;
