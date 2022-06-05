@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-05T19:56:36.982Z",
+  "posted_date": "2022-06-05T19:57:36.606Z",
   "members": {
     "Absarokee": [
       {
@@ -185,12 +185,16 @@
     ],
     "Darby": [
       {
+        "callsign": "NE7R",
+        "name": "Keith"
+      },
+      {
         "callsign": "K9GT",
         "name": "Ted"
       },
       {
-        "callsign": "NE7R",
-        "name": "Keith"
+        "callsign": "KG7GPR",
+        "name": "Missy"
       }
     ],
     "Denton": [
