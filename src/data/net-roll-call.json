@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-06-14T02:40:58.812Z",
+  "posted_date": "2022-06-14T02:45:37.345Z",
   "members": {
     "Absarokee": [
       {
@@ -199,6 +199,12 @@
       {
         "callsign": "NE7R",
         "name": "Keith"
+      }
+    ],
+    "Deer Lodge": [
+      {
+        "callsign": "KG7VQ",
+        "name": "Russ"
       }
     ],
     "Denton": [
@@ -679,6 +685,12 @@
         "name": "Ed"
       }
     ],
+    "Powell, WY": [
+      {
+        "callsign": "W7QNS",
+        "name": "Dave"
+      }
+    ],
     "Ramsay": [
       {
         "callsign": "N7ARO",
@@ -813,6 +825,12 @@
       {
         "callsign": "N7SJM",
         "name": "Scott"
+      }
+    ],
+    "Townsend": [
+      {
+        "callsign": "KE7NLU",
+        "name": "Eric"
       }
     ],
     "Troy": [
