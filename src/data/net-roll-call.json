@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-07-24T00:58:29.477Z",
+  "posted_date": "2022-07-31T03:37:22.536Z",
   "members": {
     "Absarokee": [
       {
@@ -581,6 +581,10 @@
         "name": "Jerry"
       },
       {
+        "callsign": "K7IWW",
+        "name": "Kevin"
+      },
+      {
         "callsign": "K7MSO",
         "name": "Mike"
       },
@@ -603,10 +607,6 @@
       {
         "callsign": "W7XT",
         "name": "Dick"
-      },
-      {
-        "callsign": "WA7VTD",
-        "name": "Kevin"
       }
     ],
     "Molalla,OR": [
