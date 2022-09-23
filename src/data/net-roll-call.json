@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-09-23T01:01:23.218Z",
+  "posted_date": "2022-09-23T01:03:05.799Z",
   "members": {
     "Absarokee": [
       {
@@ -483,6 +483,10 @@
       {
         "callsign": "KE7KPB",
         "name": "Bob"
+      },
+      {
+        "callsign": "KI7MFB",
+        "name": "Ben"
       },
       {
         "callsign": "WA7BGI",
