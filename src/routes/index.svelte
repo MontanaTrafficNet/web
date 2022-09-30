@@ -197,10 +197,10 @@
       </div>
       <div class="thanks full">Thanks to all who help us make this a Great Net</div>
       <div class="rri full">
-        <a href="http://radio-relay.org/">Radio Relay International</a>
+        <a href="https://radiorelay.org/">Radio Relay International</a>
       </div>
       <div class="rri image side">
-        <a title="Check Us" target="_NEW" href="http://Radio-Relay.org/"> Link to Site </a>
+        <a title="Check Us" target="_NEW" href="https://radiorelay.org/"> Link to Site </a>
       </div>
       <div class="center3 waef">
         <img alt="WAEF" height="100%" src="img/WAEFPic.jpg" />
