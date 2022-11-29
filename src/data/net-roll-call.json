@@ -1,5 +1,5 @@
 {
-  "posted_date": "2022-11-13T00:52:32.577Z",
+  "posted_date": "2022-11-29T01:06:23.228Z",
   "members": {
     "Absarokee": [
       {
@@ -829,6 +829,10 @@
       {
         "callsign": "N7MSM",
         "name": "Marv"
+      },
+      {
+        "callsign": "WY7MC",
+        "name": "Matt"
       }
     ],
     "Stavely, AB": [
@@ -873,12 +877,6 @@
       {
         "callsign": "KF7OCI",
         "name": "Larry"
-      }
-    ],
-    "Thayne, WY": [
-      {
-        "callsign": "WY7MC",
-        "name": "Matt"
       }
     ],
     "Tonasket, WA": [
