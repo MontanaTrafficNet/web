@@ -1,5 +1,5 @@
 {
-  "posted_date": "2023-01-18T20:21:21.973Z",
+  "posted_date": "2023-01-20T01:10:42.338Z",
   "members": {
     "Absarokee": [
       {
@@ -162,6 +162,10 @@
       }
     ],
     "Columbia Falls ": [
+      {
+        "callsign": "KE7KUA",
+        "name": "Kelly"
+      },
       {
         "callsign": "N7PMS",
         "name": "Mike"
@@ -825,6 +829,12 @@
       {
         "callsign": "N9IB",
         "name": "Bob"
+      }
+    ],
+    "Story,WY": [
+      {
+        "callsign": "K7TSD",
+        "name": "Troy"
       }
     ],
     "Sunburst": [
