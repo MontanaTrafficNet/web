@@ -1,5 +1,5 @@
 {
-  "posted_date": "2023-04-08T14:30:30.761Z",
+  "posted_date": "2023-04-18T01:06:16.577Z",
   "members": {
     "Absarokee": [
       {
@@ -112,6 +112,14 @@
       }
     ],
     "Bozeman": [
+      {
+        "callsign": "KE7NLU",
+        "name": "Eric"
+      },
+      {
+        "callsign": "KK7CJV",
+        "name": "Stacy"
+      },
       {
         "callsign": "WA7U",
         "name": "Todd"
@@ -875,16 +883,6 @@
       {
         "callsign": "N7SJM",
         "name": "Scott"
-      }
-    ],
-    "Townsend": [
-      {
-        "callsign": "KE7NLU",
-        "name": "Eric"
-      },
-      {
-        "callsign": "KK7CJV",
-        "name": "Stacy"
       }
     ],
     "Troy": [
