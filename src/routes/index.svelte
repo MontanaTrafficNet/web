@@ -36,7 +36,7 @@
     <div class="cable"><img alt="coax" height="15" width="600" src="img/coax1.gif" /></div>
     <div class="subtitle">
       <p>
-        This is a directed Western Relay Net, affiliated with the National Traffic System and Radio Relay International, and Handles Traffic with all States,
+        This is a directed Western Relay Net, affiliated with the National Traffic System and Radio Relay International, <br /> and Handles Traffic with all States,
         Canada and all Other parts <br /> of the World where Third Party Traffic is Allowed..This Net
         meets at Zero Hour Thirty Minutes on or near 3910 kHZ
       </p>
