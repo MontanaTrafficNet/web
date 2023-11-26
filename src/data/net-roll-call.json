@@ -1,5 +1,5 @@
 {
-  "posted_date": "2023-11-21T21:15:13.666Z",
+  "posted_date": "2023-11-26T01:03:03.317Z",
   "members": {
     "Absarokee": [
       {
@@ -47,6 +47,12 @@
       {
         "callsign": "VE5BWS",
         "name": "Blair"
+      }
+    ],
+    "Belgrade": [
+      {
+        "callsign": "KK7NNE",
+        "name": "Mickey"
       }
     ],
     "Billings": [
@@ -557,6 +563,10 @@
       {
         "callsign": "KK7DTD",
         "name": "Jim"
+      },
+      {
+        "callsign": "W7DGM/AG",
+        "name": "Anthony"
       },
       {
         "callsign": "W7WOF",
