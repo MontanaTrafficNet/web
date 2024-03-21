@@ -1,5 +1,5 @@
 {
-  "posted_date": "2024-03-17T01:00:57.647Z",
+  "posted_date": "2024-03-21T01:01:08.016Z",
   "members": {
     "Absarokee": [
       {
@@ -288,6 +288,10 @@
       }
     ],
     "Eureka": [
+      {
+        "callsign": "K5FB",
+        "name": "Frank"
+      },
       {
         "callsign": "K7BIR",
         "name": "John"
@@ -831,12 +835,6 @@
       {
         "callsign": "N7ARO",
         "name": "Gene"
-      }
-    ],
-    "Rapid City,SD": [
-      {
-        "callsign": "KC0JGE",
-        "name": "Andy"
       }
     ],
     "Raymond, AB": [
