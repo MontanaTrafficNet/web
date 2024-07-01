@@ -1,5 +1,5 @@
 {
-  "posted_date": "2024-06-29T14:26:57.890Z",
+  "posted_date": "2024-07-01T16:31:10.252Z",
   "members": {
     "Absarokee": [
       {
@@ -215,12 +215,6 @@
         "name": "Ted"
       }
     ],
-    "Condon": [
-      {
-        "callsign": "KK7SDH",
-        "name": "Paul"
-      }
-    ],
     "Cranbrook, BC": [
       {
         "callsign": "VE7XAG",
@@ -327,6 +321,12 @@
       {
         "callsign": "KB7DA",
         "name": "David"
+      }
+    ],
+    "Ferndale": [
+      {
+        "callsign": "KK7SDH",
+        "name": "Paul"
       }
     ],
     "Flaxville": [
