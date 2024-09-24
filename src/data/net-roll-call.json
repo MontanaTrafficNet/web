@@ -1,5 +1,5 @@
 {
-  "posted_date": "2024-09-10T00:29:34.089Z",
+  "posted_date": "2024-09-24T19:41:10.398Z",
   "members": {
     "Absarokee": [
       {
@@ -37,10 +37,6 @@
       {
         "callsign": "KB7IQO",
         "name": "Phil"
-      },
-      {
-        "callsign": "KE7TMN",
-        "name": "Robin"
       }
     ],
     "Andrew, AB": [
@@ -89,14 +85,6 @@
       {
         "callsign": "KJ7ZWY",
         "name": "Candi"
-      },
-      {
-        "callsign": "KW7EET",
-        "name": "Ed"
-      },
-      {
-        "callsign": "N7BLA",
-        "name": "Robert"
       },
       {
         "callsign": "N7VR",
@@ -181,24 +169,11 @@
         "name": "Brian"
       }
     ],
-    "Clinton": [
-      {
-        "callsign": "KB7CRR",
-        "name": "Stuart"
-      }
-    ],
+    "Clinton": [],
     "Coeur D'Alene,  ID": [
       {
         "callsign": "K7TM ",
         "name": "Bob"
-      },
-      {
-        "callsign": "KJ7KRI",
-        "name": "Randy"
-      },
-      {
-        "callsign": "N7JRK",
-        "name": "James"
       }
     ],
     "Columbia Falls ": [
@@ -231,14 +206,6 @@
       {
         "callsign": "K7JAQ",
         "name": "Roy"
-      },
-      {
-        "callsign": "KE7QIP",
-        "name": "Cliff"
-      },
-      {
-        "callsign": "KJ7SVZ",
-        "name": "Gary"
       }
     ],
     "Darby": [
@@ -297,14 +264,6 @@
       {
         "callsign": "K7BIR",
         "name": "Johnny"
-      },
-      {
-        "callsign": "KC7CUE",
-        "name": "Craig"
-      },
-      {
-        "callsign": "KF7NUN",
-        "name": "Ken"
       },
       {
         "callsign": "W7GVW",
@@ -435,18 +394,6 @@
         "name": "Richard"
       },
       {
-        "callsign": "K7HEH",
-        "name": "Heather"
-      },
-      {
-        "callsign": "KB7DUJ",
-        "name": "Loren"
-      },
-      {
-        "callsign": "KE7TPR",
-        "name": "Doug"
-      },
-      {
         "callsign": "KG7VDT",
         "name": "Yevette"
       },
@@ -481,10 +428,6 @@
       {
         "callsign": "K7ZIN",
         "name": "Ray"
-      },
-      {
-        "callsign": "KE8PUO",
-        "name": "Adam"
       },
       {
         "callsign": "KK7HA",
@@ -603,10 +546,6 @@
       {
         "callsign": "KI7MFB",
         "name": "Ben"
-      },
-      {
-        "callsign": "N3VNE",
-        "name": "Chris"
       },
       {
         "callsign": "WA7BGI",
@@ -733,10 +672,6 @@
         "name": "Jerry"
       },
       {
-        "callsign": "K7IWW",
-        "name": "Kevin"
-      },
-      {
         "callsign": "K7MSO",
         "name": "Mike"
       },
@@ -779,18 +714,6 @@
       {
         "callsign": "KE7NN",
         "name": "Kenn"
-      }
-    ],
-    "Oakesdale, WA": [
-      {
-        "callsign": "ND7B",
-        "name": "Erin"
-      }
-    ],
-    "Okanagan Falls, BC": [
-      {
-        "callsign": "VE7REN",
-        "name": "Brent"
       }
     ],
     "Oliver, BC": [
@@ -857,12 +780,6 @@
       {
         "callsign": "W7QNS",
         "name": "Dave"
-      }
-    ],
-    "Ramsay": [
-      {
-        "callsign": "N7ARO",
-        "name": "Gene"
       }
     ],
     "Raymond, AB": [
