@@ -135,7 +135,7 @@ export class RollCallPDF {
   }
 
   private subheader() {
-    const sub = date().tz("GMT").format("MMMM DD, YYYY");
+    const sub = date(this.rollCall.posted_date).tz("GMT").format("MMMM DD, YYYY");
     const font = this.font;
 
     const size = {
@@ -155,7 +155,7 @@ export class RollCallPDF {
   }
 
   private list() {
-    let currentPosition = this.page.getPosition();
+    const currentPosition = this.page.getPosition();
 
     this.page.moveTo(this.margin.left, currentPosition.y);
 
