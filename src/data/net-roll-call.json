@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-03-01T01:02:10.419Z",
+  "posted_date": "2025-03-11T01:04:35.372Z",
   "members": {
     "Absarokee": [
       {
@@ -52,6 +52,10 @@
       }
     ],
     "Belgrade": [
+      {
+        "callsign": "AA7VG",
+        "name": "Matt"
+      },
       {
         "callsign": "KD7TQM",
         "name": "Norm"
@@ -448,6 +452,14 @@
       {
         "callsign": "KK7HA",
         "name": "Lloyd"
+      },
+      {
+        "callsign": "KK7YFZ",
+        "name": ""
+      },
+      {
+        "callsign": "KK7YFZ",
+        "name": "Dennis"
       },
       {
         "callsign": "N7FFM",
