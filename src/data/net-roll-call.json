@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-05-18T01:08:03.994Z",
+  "posted_date": "2025-05-18T14:56:11.825Z",
   "members": {
     "Absarokee": [
       {
@@ -740,10 +740,6 @@
         "name": "Adam"
       },
       {
-        "callsign": "KK7QJH",
-        "name": "Jeff"
-      },
-      {
         "callsign": "N7PAS",
         "name": "Paul"
       },
@@ -815,6 +811,10 @@
       }
     ],
     "Philipsburg": [
+      {
+        "callsign": "KK7QJH",
+        "name": "Jeff"
+      },
       {
         "callsign": "WD7L",
         "name": "Gary"
