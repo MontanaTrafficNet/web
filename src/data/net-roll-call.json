@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-06-24T01:00:51.469Z",
+  "posted_date": "2025-08-12T01:14:03.506Z",
   "members": {
     "Absarokee": [
       {
@@ -262,6 +262,12 @@
         "name": "Victor"
       }
     ],
+    "Driggs, ID": [
+      {
+        "callsign": "KK7TQ",
+        "name": "Nick"
+      }
+    ],
     "Edgar": [
       {
         "callsign": "KI7CSZ",
@@ -365,10 +371,6 @@
       }
     ],
     "Great Falls": [
-      {
-        "callsign": "AE7OC",
-        "name": "EOC"
-      },
       {
         "callsign": "K7SOF",
         "name": "Gary"
