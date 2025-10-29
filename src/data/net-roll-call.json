@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-10-23T00:41:47.386Z",
+  "posted_date": "2025-10-29T01:02:52.394Z",
   "members": {
     "Absarokee": [
       {
@@ -21,6 +21,10 @@
       {
         "callsign": "KB7IQO",
         "name": "Phil"
+      },
+      {
+        "callsign": "KE7TMN",
+        "name": "Robin"
       }
     ],
     "Assiniboia, SK": [
@@ -512,6 +516,12 @@
       {
         "callsign": "W7GPL",
         "name": "Paul"
+      }
+    ],
+    "Klamath Falls, OR": [
+      {
+        "callsign": "KF3KF",
+        "name": "Alan"
       }
     ],
     "Kooskia,ID": [
