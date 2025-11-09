@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-10-30T00:47:57.044Z",
+  "posted_date": "2025-11-09T00:46:04.170Z",
   "members": {
     "Absarokee": [
       {
@@ -352,6 +352,10 @@
       {
         "callsign": "K7BWW",
         "name": "Brad"
+      },
+      {
+        "callsign": "W7CPT",
+        "name": "Jim"
       }
     ],
     "Hanley, SK": [
@@ -494,12 +498,6 @@
       {
         "callsign": "KC7CCK",
         "name": "Mike"
-      }
-    ],
-    "Keyport,WA.": [
-      {
-        "callsign": "W7CPT",
-        "name": "Jim"
       }
     ],
     "Kila": [
