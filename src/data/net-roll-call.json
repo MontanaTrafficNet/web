@@ -1,5 +1,5 @@
 {
-  "posted_date": "2025-11-19T01:03:59.419Z",
+  "posted_date": "2025-11-19T05:26:53.060Z",
   "members": {
     "Absarokee": [
       {
@@ -97,6 +97,10 @@
     ],
     "Bozeman": [
       {
+        "callsign": "AJ7HI",
+        "name": "Will"
+      },
+      {
         "callsign": "KE7NLU",
         "name": "Eric"
       },
@@ -107,10 +111,6 @@
       {
         "callsign": "KK7CJV",
         "name": "Stacy"
-      },
-      {
-        "callsign": "KM7BXH",
-        "name": "Will"
       },
       {
         "callsign": "WA7U",
