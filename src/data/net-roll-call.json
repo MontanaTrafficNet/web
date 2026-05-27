@@ -1,5 +1,5 @@
 {
-  "posted_date": "2026-05-24T00:54:55.879Z",
+  "posted_date": "2026-05-27T01:04:00.502Z",
   "members": {
     "Absarokee": [
       {
@@ -206,6 +206,10 @@
       }
     ],
     "Corvallis": [
+      {
+        "callsign": "KM7EDH",
+        "name": "Scot"
+      },
       {
         "callsign": "W7MRC",
         "name": "Doug"
