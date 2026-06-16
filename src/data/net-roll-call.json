@@ -1,5 +1,5 @@
 {
-  "posted_date": "2026-06-09T00:49:01.339Z",
+  "posted_date": "2026-06-16T22:37:39.785Z",
   "members": {
     "Absarokee": [
       {
@@ -101,10 +101,6 @@
     ],
     "Bozeman": [
       {
-        "callsign": "AJ7HI",
-        "name": "Will"
-      },
-      {
         "callsign": "KE7NLU",
         "name": "Eric"
       },
@@ -119,6 +115,10 @@
       {
         "callsign": "WA7U",
         "name": "Todd"
+      },
+      {
+        "callsign": "WY7MT",
+        "name": "Will"
       }
     ],
     "Butte": [
