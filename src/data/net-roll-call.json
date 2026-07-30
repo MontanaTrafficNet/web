@@ -1,5 +1,5 @@
 {
-  "posted_date": "2026-07-25T01:04:12.122Z",
+  "posted_date": "2026-07-30T01:24:01.147Z",
   "members": {
     "Absarokee": [
       {
@@ -831,6 +831,12 @@
         "name": "Jim"
       }
     ],
+    "Silverdale, Wa": [
+      {
+        "callsign": "W7GPL",
+        "name": "Paul"
+      }
+    ],
     "Spokane, WA": [
       {
         "callsign": "AD7DD",
@@ -937,12 +943,6 @@
       {
         "callsign": "KF7ZLU",
         "name": "Rod"
-      }
-    ],
-    "Watford City, ND": [
-      {
-        "callsign": "W7GPL",
-        "name": "Paul"
       }
     ],
     "Wenatchee, WA": [
